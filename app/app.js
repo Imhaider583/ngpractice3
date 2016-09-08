@@ -1,0 +1,18 @@
+angular.module("myApp",[
+	"ui.router",
+	"categories",
+	"categories.subcategories"
+])
+.config(function($stateProvider,$urlRouterProvider){
+	$stateProvider
+		.state('my-app',{
+		      url:'/my-app',
+		      templateUrl:'app/app-tmpl.html',
+		      abstract:true
+		})
+		.state('my-app.dashboard',{
+		      url:'/dashboard',
+		      templateUrl:'app/dashboard.html',
+		});
+		$urlRouterProvider.otherwise('/my-app/dashboard');
+});

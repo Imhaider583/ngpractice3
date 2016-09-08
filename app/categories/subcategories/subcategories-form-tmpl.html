@@ -1,0 +1,17 @@
+
+<div class="panel panel-default">
+<div class="panel-body">
+<form class="create-form" role="form" ng-submit="subcategoriesCreateCtrl.createSubcategory(subcategory)" novalidate>
+    <div class="form-group">
+        <label for="categoryTitle">Category Title</label>
+        <input type="text" class="form-control" ng-model="subcategoriesCreateCtrl.subcategory.title" placeholder="Enter title">
+    </div>
+    <div class="form-group">
+        <label for="categoryURL">Category Description</label>
+        <input type="text" class="form-control" ng-model="subcategoriesCreateCtrl.subcategory .description" placeholder="Enter description">
+    </div>
+    <button type="submit" class="btn btn-info btn-lg">Submit</button>
+    <button type="button" class="btn btn-default btn-lg pull-right" ng-click="subcategoriesCreateCtrl.cancel()">Cancel</button>
+</form>
+</div>
+</div>

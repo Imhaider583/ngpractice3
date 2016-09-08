@@ -1,0 +1,6 @@
+[
+    {"id": 1, "title": "Living Room", "description":"Living Room Description"},
+    {"id": 2, "title": "Bed Room", "description":"Bed Room Description"},
+    {"id": 3, "title": "Dining Room", "description":"Dining Room Description"},
+    {"id": 4, "title": "Entertainment", "description":"Entertainment Description"}
+]
